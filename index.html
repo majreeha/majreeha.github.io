@@ -1,12 +1,22 @@
  <html>
   <head> 
-    <title> my title</title>    
+    <title>2 my title</title>    
   </head>
  <body>
   <h1>  headen tag </h1>
     <br/>
     <p>  
-      paragraph 
+     a paragraph tag
     </p>
  </body>
  </html>
+ who is your favourite singer?
+<input type="text" id="answer">
+<input type="submit" onclick="sayAnswer()" value="press">
+ <script>
+  function sayAnswer()
+  {
+   var answer=document.getElementById("answer");
+   alert(answer.value);
+  }
+ </script>
