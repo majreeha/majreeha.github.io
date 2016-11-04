@@ -12,11 +12,18 @@
  </html>
  who is your favourite singer?
 <input type="text" id="answer">
+what state are you in?
+<select id="mySelect">
+<option> Wahington</option>
+<option>disarray</option> 
+<select>
 <input type="submit" onclick="sayAnswer()" value="press">
  <script>
   function sayAnswer()
   {
    var answer=document.getElementById("answer");
+   var answer2=document.getElementById("mySelect");
    alert(answer.value);
+   alert(answer2.value);
   }
- </script>
+ </script> 
